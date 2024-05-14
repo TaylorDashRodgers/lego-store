@@ -1,0 +1,69 @@
+form {
+    background-color: #C8D3D5;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 98.5%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+#product-image-container {
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+}
+
+#quantity-message {
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+    color: red;
+}
+
+#quantityAvailable {
+    width: 20%;
+    padding: 5px;
+    background-color: #A4B8C4;
+}
+
+#left {
+    width: 50%;
+    height: 520px;
+    float: left;
+}
+  
+#right {
+    margin-left: 50%;
+    height: 520px;
+}
+
+fieldset#leftField {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.selected-row {
+    background-color: yellow;
+}

@@ -1,0 +1,82 @@
+body, h1, h2, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.product-list {
+    float: left;
+    width: 60%;
+    height: 200px;
+    overflow-y: auto;
+}
+
+#data-entry-form {
+    float: right;
+    width: 35%;
+    margin-left: 5%;
+}
+
+#data-entry-form form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#data-entry-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#data-entry-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#data-entry-form input,
+#data-entry-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+#otherButtons {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#deleteButton {
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#data-entry-form button:hover {
+    background-color: #45a049;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
